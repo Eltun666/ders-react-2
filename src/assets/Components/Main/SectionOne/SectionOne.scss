@@ -1,0 +1,81 @@
+.sectionOne{
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    .leftImg{
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+    .rightImg{
+        position: absolute;
+        right: 0;
+        z-index: -1;
+    }
+    .sectionOne-text-box{
+        width: 87%;
+        h6{
+            font-size: 20px;
+            color: #5b03e4;
+            text-transform: uppercase;
+            font-weight: 700;
+            border-bottom: 1px solid black;
+            padding-bottom: 20px;
+            width: 220px;
+            margin-bottom: 20px
+        }
+        h1{
+            font-size: 52px;
+            color: #2a2a2a;
+            font-weight: 700;
+            line-height: 70px;
+            margin-bottom: 20px;
+            width: 45%;
+            .oneSpan{
+                font-style: normal;
+                color: #5b03e4;
+            }
+            .Twospan{
+                color: #c03afe;
+                margin-left: 10px;
+            }
+        }
+        p{
+            font-size: 15px;
+            line-height: 30px;
+            color: #afafaf;
+            margin-bottom: 30px;
+            width: 42%;
+            span{
+                color: #0d6efd;
+            }
+        }
+        h3{
+            .btn{
+                font-size: 14px;
+                color: #fff;
+                background-color: #5b03e4;
+                padding: 12px 30px;
+                display: inline-block;
+                border-radius: 25px;
+                font-weight: 400;
+                text-transform: capitalize;
+                letter-spacing: 0.5px;
+                transition: all .3s;
+                overflow: hidden;
+                position: relative;
+                cursor: pointer;
+                &:hover{
+                    background-color: #7b00b4;
+                    opacity: 0.8;
+                }
+            }
+            .Twobtn{
+                background-color: #c03afe;
+            }
+        }
+    }
+}

@@ -1,0 +1,98 @@
+.sectionTwo{
+    margin: 30px 0;
+    height: 705px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .left-img{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+    .right-img{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: -1; 
+    }
+    .sectiontwo-boxs{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        .sectiomtwo-text-box{
+            width: 50%;
+            h2{
+                width: 79%;
+                color: #2a2a2a;
+                font-size: 30px;
+                text-transform: capitalize;
+                text-decoration: none;
+                margin-bottom: 30px;
+                line-height: 44px;
+                margin-right: 30px;
+                span{
+                    color: #5b03e4;
+                }
+                em{
+                    font-style: normal;
+                    color: #c03afe;
+                }
+                
+            }  
+            .line{
+                display: block;
+                width: 60px;
+                height: 2px;
+                margin-bottom: 20px;
+                border-radius: 5px;
+                background: linear-gradient(90deg, rgba(85, 0, 227, 1) 0%, rgba(198, 61, 255, 1) 100%);
+            } 
+            p{
+                font-size: 15px;
+                line-height: 30px;
+                color: #afafaf;
+            }
+        }   
+        .sectionTwo-boxs{
+            margin-top: 30px;
+            width: 50%;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            .box{
+                border: 1px solid #f3d7ff;
+                border-radius: 23px;
+                padding: 30px;
+                background-color: #fff;
+                margin-bottom: 30px;
+                transition: all .4s;
+                .icone{
+                    overflow: hidden;
+                    img{
+                        max-width: 66px;
+                        border-radius: 50%;
+                    }
+                }
+                p{
+                    font-weight: 700;
+                    font-size: 20px;
+                    color: #2a2a2a;
+                    margin-top: 20px;
+                    line-height: 30px;
+                    width: 230px;
+                    transition: all .4s;
+                }
+                &:hover{
+                    box-shadow: 1px 3px 2px rgba(0, 0, 0, 0.319);
+                    p{
+                        color: #5b03e4;
+                    }
+                }
+            }
+        }  
+    }
+}
